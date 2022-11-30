@@ -19,36 +19,43 @@
   </head>
   <body>
     <!-- Шапка сайту -->
-    <header class="main-heder">
-      <div class="container">
-        <nav class="main-nav">
-          <a href="./index.html" class="logo">
-            <span class="accent"> Web</span> Studio</a
+    <header class="page-header">
+      <div class="container page-header__container">
+        <nav class="page-header__nav">
+          <a href="./index.html" class="logo page-header__logo">
+            <span class="logo__text logo__text--accent"> Web</span>
+            Studio</a
           >
 
           <ul class="site-nav list">
-            <li class="item item-nav">
-              <a href="./index.html" class="link current link-studio">Студія</a>
+            <li class="site-nav__item">
+              <a
+                href="./index.html"
+                class="site-nav__link site-nav__link--current site-nav__link--underline"
+                >Студія</a
+              >
             </li>
-            <li class="item">
-              <a href="./portfolio.html" class="link">Портфоліо</a>
+            <li class="site-nav__item">
+              <a href="./portfolio.html" class="site-nav__link">Портфоліо</a>
             </li>
-            <li class="item"><a href="" class="link">Контакти</a></li>
+            <li class="site-nav__item">
+              <a href="" class="site-nav__link">Контакти</a>
+            </li>
           </ul>
         </nav>
 
         <ul class="addres-header list">
-          <li class="item">
-            <a href="mailto:info@devstudio.com" class="link"
-              ><svg class="icon-map icon-heder" width="16" height="12">
+          <li class="addres-header__item">
+            <a href="mailto:info@devstudio.com" class="addres-header__link"
+              ><svg class="addres-header__icon" width="16" height="12">
                 <use href="./images/icons.svg#icon-mail"></use>
               </svg>
               <span>info@devstudio.com</span>
             </a>
           </li>
-          <li class="item">
-            <a href="tel:+380961111111" class="link"
-              ><svg class="icon-phone icon-heder" width="10" height="16">
+          <li class="addres-header__item">
+            <a href="tel:+380961111111" class="addres-header__link"
+              ><svg class="addres-header__icon" width="10" height="16">
                 <use href="./images/icons.svg#icon-phone"></use>
               </svg>
               <span>+38 096 111 11 11</span>
@@ -379,11 +386,12 @@
       </section>
     </main>
     <!-- Підвал -->
-    <footer class="footer">
-      <div class="container">
+    <footer class="page-footer">
+      <div class="container page-footer__container">
         <div class="">
-          <a href="./index.html" class="logo-footer">
-            <span class="accent"> Web</span> Studio</a
+          <a href="./index.html" class="logo logo--inverse page-footer__logo">
+            <span class="logo__text logo__text--accent"> Web</span>
+            Studio</a
           >
           <address>
             <ul class="address-footer list">
